@@ -1,0 +1,25 @@
+{
+  "name": "NodeJSAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon api.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "2.8.1",
+    "express": "~4.0.0",
+    "express-session": "^1.17.2",
+    "mssql": "^6.2.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
